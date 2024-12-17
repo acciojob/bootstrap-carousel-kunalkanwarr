@@ -1,9 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Bootstrap Carousel</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
+	<!-- Carousel Container -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+    <!-- Indicators (Optional) -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="first-slide"></li>
+      <li data-target="#myCarousel" data-slide-to="1" class="second-slide"></li>
+      <li data-target="#myCarousel" data-slide-to="2" class="active third-slide"></li>
+      <li data-target="#myCarousel" data-slide-to="3" class="fourth-slide"></li>
+      <li data-target="#myCarousel" data-slide-to="4" class="fifth-slide"></li>
+    </ol>
+
+    <!-- Carousel Inner (Slides) -->
+    <div class="carousel-inner">
+      <div class="item first-slide">
+        <img src="https://via.placeholder.com/800x400?text=First+Slide" alt="First Slide">
+        <div class="carousel-caption">First Slide</div>
+      </div>
+      <div class="item second-slide">
+        <img src="https://via.placeholder.com/800x400?text=Second+Slide" alt="Second Slide">
+        <div class="carousel-caption">Second Slide</div>
+      </div>
+      <div class="item active third-slide">
+        <img src="https://via.placeholder.com/800x400?text=Third+Slide" alt="Third Slide">
+        <div class="carousel-caption">Third Slide</div>
+      </div>
+      <div class="item fourth-slide">
+        <img src="https://via.placeholder.com/800x400?text=Fourth+Slide" alt="Fourth Slide">
+        <div class="carousel-caption">Fourth Slide</div>
+      </div>
+      <div class="item fifth-slide">
+        <img src="https://via.placeholder.com/800x400?text=Fifth+Slide" alt="Fifth Slide">
+        <div class="carousel-caption">Fifth Slide</div>
+      </div>
+    </div>
+
+    <!-- Left and Right Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+    
+  </div>
+
+  <!-- Include jQuery and Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Write your code here -->
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
